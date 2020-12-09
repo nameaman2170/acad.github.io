@@ -1,0 +1,271 @@
+
+
+
+<html>
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <style>
+                    div.scrollmenu {
+                      
+                        width:30px;
+                        overflow-x: hidden;
+                        overflow-y: hidden;
+                        
+                      }
+                      
+                      div.scrollmenu a {
+                        display: inline-block;
+            
+                      }
+                      
+                      
+                    .b1:hover{
+                        background-color: blueviolet;
+                    }
+                    ::-webkit-scrollbar {
+                        width: 5px;
+                      }
+                      
+                      ::-webkit-scrollbar-track {
+                        background: #f1f1f1;
+                        scrollbar-color: gray; 
+                      }
+                       
+                      ::-webkit-scrollbar-:hover{
+                          background-color: blueviolet;
+                      }
+                      ::-webkit-scrollbar-thumb {
+                        background: #888; 
+                      }
+                      
+                      
+                      ::-webkit-scrollbar-thumb:hover {
+                        background:blueviolet; 
+                      }
+                      button:hover{
+                          background-color: blueviolet;
+			color:white;
+                      }
+                     button{
+                        background-color:whitesmoke;                        border: none;
+                        border-radius: 8px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 15px;
+                        padding: 14px 40px;
+                        margin: 4px 2px;
+                        cursor: pointer;
+                      }
+                    .c {
+                      border: 1px solid #ddd;
+                      border-radius: 4px;
+                      padding: 5px;
+                      width: 50px;
+                    }
+                    .h{
+                        text-align: left;
+                        list-style: none;
+                        background-color: white;
+                        height: 300px;
+                        width: 220px;
+                        overflow-x: hidden;
+                        overflow-y: scroll;
+                        scrollbar-width: thin;
+                    }
+            </style>
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: relative; top:30px;">
+        <div class="container-fluid" style="position: relative;">
+            <div class="row">
+                
+                <div class="col-sm-2" style="position: absolute; left:35px;">
+                    
+                        <img src="logo.jpg" alt="LOGO" class="img-thumbnail" style="width: 100px; height: 100x; border:none;">
+                    
+                </div>
+                <div class="dropdown"  style="position: absolute; left:300px;" >
+                    
+                            <button class="btn btn-primary dropdown-toggle" type="button" style="background-color: whitesmoke; color:blueviolet; border:none;" data-toggle="dropdown">Activity
+                                    <span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="#">d1</a></li>
+                                      <li><a href="#">d2</a></li>
+                                      <li><a href="#">d3</a></li>
+                                    </ul>
+                    
+                </div>
+                <div class="dropdown" style="position: absolute; left:370px;">                  
+                        <button class="btn btn-primary dropdown-toggle" type="button" style="background-color: whitesmoke; color:blueviolet; border:none;" data-toggle="dropdown">Tool Guide
+                                <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                  <li><a href="#">d1</a></li>
+                                  <li><a href="#">d2</a></li>
+                                  <li><a href="#">d3</a></li>
+                                </ul>
+                
+                </div>
+                <div class="col-sm-3" style="position: absolute; right:250px;">
+                    <button type="button" class="btn btn-default" style="background-color: whitesmoke; color:blueviolet; width:200px; text-align:left; border:none;">
+                        <span class="glyphicon glyphicon-search" style="color:blueviolet;"></span> Search....
+                      </button>  
+                 
+                </div>
+                <div class="dropdown" style="position: absolute; right:100px;">                
+                        <button type="button" class="btn btn-default" style="background-color: whitesmoke; color:blueviolet; width:100px;  border:none;">
+                            <span class="glyphicon glyphicon-bell" style="color: blueviolet;"></span>
+                            <img src="aman.jpg" style="border-radius:50%; height:20px; width:20px;" alt="profile">
+                            <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                  <li><a href="#">d1</a></li>
+                                  <li><a href="#">d2</a></li>
+                                  <li><a href="#">d3</a></li>
+                                </ul>
+                        </button>
+                    
+                </div>
+                </div>
+        </div>
+    </nav>
+        <div class="position-relative;" style="position: relative; top:50px; left:30px;">
+            <button type="button" class="btn btn-default" style="background-color: whitesmoke;; width:120px;  border:none;">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span> Tools
+            </button>
+        </div>
+        
+            
+            <div style=" position:relative; top:70px; overflow:auto;">
+                <ul class="h" class="smooth-scroll list-unstyled">   
+            <li><button class="btn btn-default" style="background-color: white; border:none;"><span class="glyphicon glyphicon-menu-hamburger" style="color:blueviolet; text-align:left;"></span> Dashboard</button>
+               <li><button class="btn btn-default" style="background-color: white; border:none;"><span class="glyphicon glyphicon-user" style="color:blueviolet; text-align:left;"></span> Mentorship</button>
+                <li><button class="btn btn-default" style="background-color: white; border:none;"><span class="glyphicon glyphicon-question-sign" style="color:blueviolet; text-align:left;"></span> Doubt Resolver</button>
+                    <li><button class="btn btn-default" style="background-color: white; border:none;"><span class="glyphicon glyphicon-plus" style="color:blueviolet; text-align:left;"></span> Remedy</button>
+                        <li><button class="btn btn-default" style="background-color: white; border:none;"><span class="glyphicon glyphicon-list-alt" style="color:blueviolet; text-align:left;"></span> Assignment Creator</button>
+                            <li><button class="btn btn-default" style="background-color: white; border:none;"><span class="glyphicon glyphicon-map-marker" style="color:blueviolet; text-align:left;"></span> Tracking Tool</button>
+                                <li><button class="btn btn-default" style="background-color: white; border:none;"><span class="glyphicon glyphicon-check" style="color:blueviolet; text-align:left;"></span> Backlog Remover</button>
+                                    <li><button class="btn btn-default" style="background-color: white; border:none;"><span class="glyphicon glyphicon-book" style="color:blueviolet; text-align:left;"></span> Material Sorter</button>
+                                        <li><button class="btn btn-default" style="background-color: white; border:none;"><span class="glyphicon glyphicon-pencil" style="color:blueviolet; text-align:left;"></span> Test Creator</button>
+                                            <li><button class="btn btn-default" style="background-color: white; border:none;"><span class="glyphicon glyphicon-plus" style="color:blueviolet; text-align:left;"></span> Remedy</button>
+                                                <li><button class="btn btn-default" style="background-color: white; border:none;"><span class="glyphicon glyphicon-plus" style="color:blueviolet; text-align:left;"></span> Remedy</button>
+                                                    <li><button class="btn btn-default" style="background-color: white; border:none;"><span class="glyphicon glyphicon-plus" style="color:blueviolet; text-align:left;"></span> Remedy</button>
+                                                        <li><button class="btn btn-default" style="background-color: white; border:none;"><span class="glyphicon glyphicon-plus" style="color:blueviolet; text-align:left;"></span> Remedy</button>
+                                                            <li><button class="btn btn-default" style="background-color: white; border:none;"><span class="glyphicon glyphicon-plus" style="color:blueviolet; text-align:left;"></span> Remedy</button>
+            </ul>
+                </div>
+        
+
+        <div class="container" style="position: relative;">
+            <div class="row" style="position: absolute; top:-300px; left:200px">
+                <button type = "button" class="btn"> <b>Add Syllabus</b></button>
+            </div>
+            <div class="row" style="position: relative; top:-230px; left:185px;">
+                    <button type = "button" class="btn" style="width: 250px; font-size:18px ;"> Physics</button>
+                    <button type = "button" class="btn" style="width: 250px; font-size:18px;"> Chemistry</button>
+                    <button type = "button" class="btn" style="width: 250; font-size:18px;"> Maths</button>
+            </div>
+            <div class="container" class="row"
+             style="position: relative; top:-190px; left:160px;">
+              <div class="row">
+                <div class="col-sm-3">
+                    <label for="chapters" style="font-size: 15px;">Chapters</label><br>
+                    <button class="btn btn-primary dropdown-toggle" 
+                    type="button" 
+                    style="background-color: whitesmoke; color:black; border:none; width:230px"
+                     data-toggle="dropdown">Choose a Tag
+                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu" style="width: auto; background-color:whitesmoke;">
+                            <div class="container" style="width: auto; background-color:whitesmoke;">
+                                <div class="row" class="scrollmenu">
+                                    <button type="button" class="btn btn-default btn-xs" 
+                                    style="background-color: blueviolet; color:white; border:none;">
+                                        Trigonomtry
+                                    </button>
+                                    
+                                    <button type="button" class="btn btn-default btn-xs" 
+                                    style="background-color: blueviolet; color:white; border:none;">
+                                        Probability
+                                    </button>
+                                    
+                                    <button type="button" class="btn btn-default btn-xs" 
+                                    style="background-color: blueviolet; color:white; border:none;">
+                                        Progression
+                                    </button>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4" style="text-align: left;">
+                                            Chapter1
+                                    </div>
+                                    
+                                    <div class="col-sm-3" style="text-align: center;">
+                                            Chapter1
+                                    </div>
+                                    
+                                    <div class="col-sm-5" style="text-align: right;">
+                                            Chapter1
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                        <div class="col-sm-4" style="text-align: left;">
+                                                Chapter1
+                                        </div>
+                                        
+                                        <div class="col-sm-3" style="text-align: center;">
+                                                Chapter1
+                                        </div>
+                                        
+                                        <div class="col-sm-5" style="text-align: right;">
+                                                Chapter1
+                                        </div>
+                                    </div>
+                                    
+                                <div class="row">
+                                        <div class="col-sm-4" style="text-align: left;">
+                                                Chapter1
+                                        </div>
+                                        
+                                        <div class="col-sm-3" style="text-align: center;">
+                                                Chapter1
+                                        </div>
+                                        
+                                        <div class="col-sm-5" style="text-align: right;">
+                                                Chapter1
+                                        </div>
+                                    </div>
+                            </div></ul>
+                   </div>
+                   <div class="col-sm-3">
+                        <label for="concepts" style="font-size: 15px;">Concepts</label><br>
+                        <button class="btn btn-primary dropdown-toggle" 
+                        type="button" style="background-color: whitesmoke; color:black; border:none; width:230px"
+                         data-toggle="dropdown">Choose a Tag
+                                <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                  <li><a href="#">d1</a></li>
+                                  <li><a href="#">d2</a></li>
+                                  <li><a href="#">d3</a></li>
+                                </ul>
+                       </div>
+                       <div class="col-sm-3">
+                            <label for="subconcepts" style="font-size: 15px;">Sub-Concepts</label><br>
+                            <button class="btn btn-primary dropdown-toggle" type="button" 
+                            style="background-color: whitesmoke; color:black; border:none; width:230px;"
+                             data-toggle="dropdown">Choose a Tag
+                                    <span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="#">d1</a></li>
+                                      <li><a href="#">d2</a></li>
+                                      <li><a href="#">d3</a></li>
+                                    </ul>
+                           </div>
+              </div>  
+                    </div>
+            
+        </div>
+    </body>
+</html>
